@@ -47,10 +47,10 @@ The service solves the “activity logging” problem when ingestion reliability
 Create `.env` in the repository root:
 
 ```bash
-PORT=3000
-KAFKA_BROKER=kafka-1:9092
-KAFKA_TOPIC=activity-events
-MONGO_URI=mongodb://mongo:27017/activity-db
+PORT=enter the port
+MONGO_URI=mongodb://mongo:27017/enter name of database
+KAFKA_BROKER=put the container of kafka
+KAFKA_TOPIC=
 ```
 
 > If you rename services or expose Kafka externally, update `KAFKA_BROKER` accordingly.
